@@ -1,8 +1,6 @@
-from import os
 from pyrogram import Client as bot, idle
 import asyncio
 import logging
-
 logging.basicConfig(
     level=logging.INFO,    
     format="[%(asctime)s - %(levelname)s] - %(name)s - %(message)s",
